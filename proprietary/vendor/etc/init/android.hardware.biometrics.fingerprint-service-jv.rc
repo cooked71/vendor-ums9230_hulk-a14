@@ -1,0 +1,18 @@
+service fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint-service-jv
+    # "class hal" causes a race condition on some devices due to files created
+    # in /data. As a workaround, postpone startup until later in boot once
+    # /data is mounted.
+    socket fpsensor_socket stream 0777 system system
+    class late_start
+    user system
+    group root system input uhid
+    seclabel u:r:hal_fingerprint_default:s0
+
+on post-fs-data
+    chown system system /dev/jiiov_fp
+    chmod 0644 /dev/jiiov_fp
+    chmod 660 sys/devices/platform/fingerprint@0/fp_suspend
+    chown system system sys/devices/platform/fingerprint@0/fp_suspend
+    mkdir /data/vendor/fingerprint 0777 system system
+    mkdir /mnt/vendor/persist/fingerprint 0777 system system
+    mkdir /mnt/vendor/persist/fingerprint/jiiov 0777 system system

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <version>20240312</version>
+    <brightnessDebug>0</brightnessDebug>
+    <config_gamma_space_max>53420</config_gamma_space_max>
+    <config_brightnessMaxFloat>0.8145516903478</config_brightnessMaxFloat>
+    <config_brightnessMinInt>13</config_brightnessMinInt>
+    <config_brightnessDefaultInt>1306</config_brightnessDefaultInt>
+    <config_brightness_ramp_rate_fast>4000</config_brightness_ramp_rate_fast>
+    <config_brightness_ramp_rate_slow>700</config_brightness_ramp_rate_slow>
+    <slider_animate_duration_auto_support>1</slider_animate_duration_auto_support>
+    <mode_switch_brightness_rate_fast_support>1</mode_switch_brightness_rate_fast_support>
+    <config_brightness_rate>
+        <item_f>0.5</item_f>
+        <item_f>0.1</item_f>
+    </config_brightness_rate>
+    <config_autoBrightnessLevels>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+        <item>20</item>
+        <item>33</item>
+        <item>55</item>
+        <item>90</item>
+        <item>105</item>
+        <item>148</item>
+        <item>245</item>
+        <item>403</item>
+        <item>665</item>
+        <item>1097</item>
+        <item>1808</item>
+        <item>2981</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>8000</item>
+        <item>8600</item>
+        <item>9000</item>
+        <item>10000</item>
+    </config_autoBrightnessLevels>
+    <config_autoBrightnessDisplayValuesNits>
+        <item_f>2.8</item_f>   <!-- 0-1 -->
+        <item_f>2.9</item_f>   <!-- 1-2 -->
+        <item_f>3.0</item_f>    <!-- 2-3 -->
+        <item_f>21.7</item_f>  <!-- 3-4 -->
+        <item_f>24.9</item_f>  <!-- 4-8 -->
+        <item_f>34</item_f>  <!-- 8-12 -->
+        <item_f>40</item_f>  <!-- 12-20 -->
+        <item_f>51</item_f>  <!-- 20-33 -->
+        <item_f>74</item_f>   <!-- 33-55 -->
+        <item_f>95</item_f>  <!-- 55-90 -->
+        <item_f>115</item_f>   <!-- 90-105 -->
+        <item_f>127</item_f>    <!-- 105-148 -->
+        <item_f>141</item_f>    <!-- 148-245 -->
+        <item_f>146</item_f> <!-- 245-403 -->
+        <item_f>157</item_f>  <!-- 403-665 -->
+        <item_f>177</item_f>  <!-- 665-1097 -->
+        <item_f>218</item_f>  <!-- 1097-1808 -->
+        <item_f>273</item_f>  <!-- 1808-2981 -->
+        <item_f>362</item_f>  <!-- 2981-5000 -->
+        <item_f>406</item_f>      <!-- 5000-6000 -->
+        <item_f>421</item_f>      <!-- 6000-8000 -->
+        <item_f>428</item_f>      <!-- 8000-8600 -->
+        <item_f>440</item_f>      <!-- 8600-9000 -->
+        <item_f>450</item_f>      <!-- 9000-10000 -->
+        <item_f>460</item_f>      <!-- 10000+ -->
+    </config_autoBrightnessDisplayValuesNits>
+    <config_screenBrightnessBacklight>
+        <item>1</item>
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+        <item>24</item>
+        <item>32</item>
+        <item>40</item>
+        <item>48</item>
+        <item>56</item>
+        <item>64</item>
+        <item>72</item>
+        <item>80</item>
+        <item>88</item>
+        <item>96</item>
+        <item>104</item>
+        <item>112</item>
+        <item>120</item>
+        <item>128</item>
+        <item>136</item>
+        <item>144</item>
+        <item>152</item>
+        <item>160</item>
+        <item>192</item>
+        <item>256</item>
+        <item>416</item>
+        <item>576</item>
+        <item>896</item>
+        <item>1216</item>
+        <item>1536</item>
+        <item>1856</item>
+        <item>2176</item>
+        <item>2496</item>
+        <item>2816</item>
+        <item>2976</item>
+        <item>3056</item>
+        <item>3136</item>
+        <item>3216</item>
+        <item>3296</item>
+        <item>3336</item>
+        <item>3376</item>
+        <item>3416</item>
+        <item>3456</item>
+        <item>3496</item>
+        <item>3536</item>
+        <item>3576</item>
+        <item>3616</item>
+        <item>3656</item>
+        <item>3696</item>
+        <item>3760</item>
+        <item>3920</item>
+        <item>4095</item>
+    </config_screenBrightnessBacklight>
+    <config_screenBrightnessNits>
+        <item_f>2.8486738</item_f>
+        <item_f>2.8558537</item_f>
+        <item_f>2.8620498</item_f>
+        <item_f>2.8664047</item_f>
+        <item_f>2.8728056</item_f>
+        <item_f>2.8820028</item_f>
+        <item_f>2.8830028</item_f>
+        <item_f>2.8919082</item_f>
+        <item_f>2.8969073</item_f>
+        <item_f>2.9046238</item_f>
+        <item_f>2.9165639</item_f>
+        <item_f>2.9246702</item_f>
+        <item_f>2.9341111</item_f>
+        <item_f>2.9402954</item_f>
+        <item_f>2.9581506</item_f>
+        <item_f>2.9646702</item_f>
+        <item_f>2.9881379</item_f>
+        <item_f>2.9902154</item_f>
+        <item_f>3.1903035</item_f>
+        <item_f>3.1933618</item_f>
+        <item_f>3.1959974</item_f>
+        <item_f>3.1994636</item_f>
+        <item_f>3.2022391</item_f>
+        <item_f>3.2060437</item_f>
+        <item_f>3.2130986</item_f>
+        <item_f>4.8144965</item_f>
+        <item_f>5.7722106</item_f>
+        <item_f>11.088117</item_f>
+        <item_f>28.595601</item_f>
+        <item_f>55.664168</item_f>
+        <item_f>92.519212</item_f>
+        <item_f>139.74423</item_f>
+        <item_f>195.93524</item_f>
+        <item_f>262.56423</item_f>
+        <item_f>337.01163</item_f>
+        <item_f>377.68774</item_f>
+        <item_f>398.41874</item_f>
+        <item_f>419.77153</item_f>
+        <item_f>441.15895</item_f>
+        <item_f>464.18457</item_f>
+        <item_f>475.23443</item_f>
+        <item_f>481.6492</item_f>
+        <item_f>486.87901</item_f>
+        <item_f>492.05206</item_f>
+        <item_f>495.94778</item_f>
+        <item_f>501.10546</item_f>
+        <item_f>506.24246</item_f>
+        <item_f>511.36865</item_f>
+        <item_f>516.25091</item_f>
+        <item_f>521.31119</item_f>
+        <item_f>529.2169</item_f>
+        <item_f>549.12137</item_f>
+        <item_f>570.58487</item_f>
+    </config_screenBrightnessNits>
+</root>
